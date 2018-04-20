@@ -54,6 +54,7 @@ body {
   position: absolute;
   top: 40%;
   left: 50%;
+  /* Without this, only the left and top edge will be true to the positioning. */
   transform: translate(-50%, -50%);
 }
 
